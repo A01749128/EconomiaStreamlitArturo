@@ -36,7 +36,7 @@ color_palettes = {
 css_content = ""
 try:
         # Intento secundario para ruta de Colab
-        with open("/content/styles.css") as f:
+        with open("styles.css") as f:
             css_content = f.read()
 except FileNotFoundError:
         st.warning("⚠️ No se encontró el archivo styles.css")
