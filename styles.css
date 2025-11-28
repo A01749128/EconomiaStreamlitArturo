@@ -1,0 +1,54 @@
+/* Con esto se asegura que el color de fondo del selectbox sera blanco */
+.stSelectbox > div[data-baseweb="select"] > div {
+    background-color: white;
+    color: black;
+}
+div[data-testid="stMarkdownContainer"] {
+    color: var(--text-color);
+}
+
+/* Color de fondo para la seccion del sidebar */
+div[data-testid="stToolbar"] {
+    background-color: var(--main-bg-color);
+}
+
+/* Estilos para el buton para extender y colapsar del sidebar */
+.st-emotion-cache-ujm5ma {
+    color: var(--text-color); 
+}
+
+/* Colores para el sidebar */
+.stSidebar {
+    background-color: var(--sidebar-bg-color);
+    color: var(--text-color); 
+}
+
+/* Configuración para el boton de ejemplo */
+.stButton > button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--button-color);
+}
+
+/* Estilo para la pagina principal de la app en Streamlit */
+.stApp {
+    background-color: var(--main-bg-color);
+}
+
+/* Para esconder el menu (hamburger icon) */
+.st-emotion-cache-1pbsqtx {
+    display: none;
+}
+.st-emotion-cache-1wbqy5l {
+    display: none;
+}
+
+/* Definicion de colores para los encabezados y etiquetas*/
+h1, h2, h3, h4, h5, h6, label {
+    color: var(--text-color);
+}
+p {
+    color: white;
+}
